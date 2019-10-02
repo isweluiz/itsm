@@ -1,0 +1,234 @@
+---
+- ChangeBy: '2'
+  ChangeTime: 2019-06-24 11:06:34
+  Comment: ''
+  CreateBy: '1'
+  CreateTime: 2019-06-06 21:46:24
+  Data:
+    ArticleAttachmentInclude:
+    - '0'
+    Events:
+    - NotificationEscalation
+    LanguageID:
+    - de
+    - en
+    - es_MX
+    - hu
+    - pt_BR
+    - sr_Cyrl
+    - sr_Latn
+    - zh_CN
+    OncePerDay:
+    - '1'
+    Recipients:
+    - AgentMyQueues
+    - AgentResponsible
+    - AgentWritePermissions
+    SendOnOutOfOffice:
+    - '1'
+    TransportEmailTemplate:
+    - Default
+    Transports:
+    - Email
+    VisibleForAgent:
+    - '0'
+  ID: '11'
+  Message:
+    de:
+      Body: 'Hallo &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt; &lt;OTRS_NOTIFICATION_RECIPIENT_UserLastname&gt;,<br
+        />
+
+        <br />
+
+        das Ticket [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        ist eskaliert!<br />
+
+        <br />
+
+        Eskaliert am: &lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        Eskaliert seit: &lt;OTRS_TICKET_EscalationDestinationIn&gt;<br />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: Ticket-Eskalation! <OTRS_TICKET_Title>
+    en:
+      Body: 'Olá, prezado &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt;,<br />
+
+        <br />
+
+        o ticket [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        foi escalado.<br />
+
+        <br />
+
+        Escalonado em: &lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        Escalonado desde:&nbsp;&nbsp;&lt;OTRS_TICKET_EscalationDestinationIn&gt;<br
+        />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://35.238.34.212/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: Ticket Escalation! <OTRS_TICKET_Title>
+    es_MX:
+      Body: 'Hola &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt;,<br />
+
+        <br />
+
+        el ticket [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        se ha escalado!<br />
+
+        <br />
+
+        Escaló: &lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        Escalado desde: &lt;OTRS_TICKET_EscalationDestinationIn&gt;<br />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: ¡Escalación de ticket! <OTRS_TICKET_Title>
+    hu:
+      Body: 'Kedves &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt;!<br />
+
+        <br />
+
+        A(z) [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        jegy eszkalálódott!<br />
+
+        <br />
+
+        Eszkaláció időpontja: &lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        Eszkaláció óta eltelt idő: &lt;OTRS_TICKET_EscalationDestinationIn&gt;<br
+        />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: Jegyeszkaláció! <OTRS_TICKET_Title>
+    pt_BR:
+      Body: 'Olá, prezado &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt;,<br />
+
+        <br />
+
+        o ticket [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        foi escalado.<br />
+
+        <br />
+
+        Escalonado em: &lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        Escalonado desde:&nbsp;&nbsp;&lt;OTRS_TICKET_EscalationDestinationIn&gt;<br
+        />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://35.238.34.212/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: SLA vencido! <OTRS_TICKET_Title>
+    sr_Cyrl:
+      Body: 'Здраво &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt;,<br />
+
+        <br />
+
+        тикет [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        је ескалирао!<br />
+
+        <br />
+
+        Време ескалације: &lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        Ескалиран од: &lt;OTRS_TICKET_EscalationDestinationIn&gt;<br />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: Ескалација тикета! <OTRS_TICKET_Title>
+    sr_Latn:
+      Body: 'Zdravo &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt;,<br />
+
+        <br />
+
+        tiket [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        je eskalirao!<br />
+
+        <br />
+
+        Vreme eskalacije: &lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        Eskaliran od: &lt;OTRS_TICKET_EscalationDestinationIn&gt;<br />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: Eskalacija tiketa! <OTRS_TICKET_Title>
+    zh_CN:
+      Body: '您好 &lt;OTRS_NOTIFICATION_RECIPIENT_UserFirstname&gt;,<br />
+
+        <br />
+
+        票据工单 [&lt;OTRS_CONFIG_Ticket::Hook&gt;&lt;OTRS_CONFIG_Ticket::HookDivider&gt;&lt;OTRS_TICKET_TicketNumber&gt;]
+        已被升级！<br />
+
+        <br />
+
+        升级地点升级开始时间：&lt;OTRS_TICKET_EscalationDestinationDate&gt;<br />
+
+        升级开始时间升级在：&lt;OTRS_TICKET_EscalationDestinationIn&gt;内<br />
+
+        <br />
+
+        &lt;OTRS_CONFIG_HttpType&gt;://&lt;OTRS_CONFIG_FQDN&gt;/&lt;OTRS_CONFIG_ScriptAlias&gt;index.pl?Action=AgentTicketZoom;TicketID=&lt;OTRS_TICKET_TicketID&gt;<br
+        />
+
+        <br />
+
+        -- &lt;OTRS_CONFIG_NotificationSenderName&gt;'
+      ContentType: text/html
+      Subject: 票据升级！工单升级！<OTRS_TICKET_Title>
+  Name: SLA vencido
+  ValidID: '1'

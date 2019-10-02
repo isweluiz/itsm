@@ -1,0 +1,23 @@
+Prezado (a), cliente, Sr.(a) <OTRS_NOTIFICATION_RECIPIENT_UserFirstname>,
+
+Obrigado por entrar em contato conosco. 
+
+O ticket [<OTRS_CONFIG_Ticket::Hook><OTRS_CONFIG_Ticket::HookDivider><OTRS_TICKET_TicketNumber>] <OTRS_TICKET_Title>  foi criado. Pedimos que, por gentileza, aguarde nosso contato, que acontecerá em breve.
+
+
+<OTRS_CUSTOMER_REALNAME> escreveu:
+<OTRS_CUSTOMER_BODY[30]>
+
+<OTRS_CONFIG_HttpType>://<OTRS_CONFIG_FQDN>/<OTRS_CONFIG_ScriptAlias>index.pl?Action=AgentTicketZoom;TicketID=<OTRS_TICKET_TicketID>
+
+
+Cordialmente,
+Atendimento ao Cliente, INMETRO
+--
+Suporte ao usuário
+BL A - Qd. 8, B60, Via S2, DF 
+Email: suporte@inmetro.gov.br  - Web: http: //www4.inmetro.gov. br/
+Telefone: 0800-0000
+--
+
+-- <OTRS_CONFIG_NotificationSenderName>
