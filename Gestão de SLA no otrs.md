@@ -2,7 +2,7 @@
 O OTRS como ferramenta "ITIL Compliance", permite a definição de vários SLAs que por sua vez vão trabalhar em conjunto com os tipos de serviços, variando para cada serviço, conjunto de serviços ou sua prioridade.
 
  
--## Definimos onde o escalonamento dos chamados podem ocorrer em três momentos diferentes:
+## Definimos onde o escalonamento dos chamados podem ocorrer em três momentos diferentes:
 
 ## SLA de primeira resposta:
 Determina um tempo máximo de resposta para que a equipe de atendimento avalie e dê uma primeira resposta ao cliente, por email ou por telefone.
