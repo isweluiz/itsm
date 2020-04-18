@@ -126,7 +126,7 @@ echo "$SECURE_MYSQL"
 functionInstallOTRS () {
 
 
-    yum -y install http://ftp.otrs.org/pub/otrs/RPMS/rhel/7/otrs-${VERSION}-01.noarch.rpm 
+    yum -y install http://ftp.otrs.org/pub/otrs/RPMS/rhel/7/otrs-${VERSION}-02.noarch.rpm 
 
 }
 
