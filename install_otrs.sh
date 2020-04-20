@@ -235,7 +235,7 @@ Password: $MYSQL_NEW_OTRS_PASSWORD
 ===================================================
 ";
 
-  echo "$SHOW"
+  echo "$SHOW" >/opt/otrs_acessos
 
   echo "$SHOW" >> $LOGS
 
