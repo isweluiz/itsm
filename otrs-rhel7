@@ -1,0 +1,82 @@
+setenforce 0
+sed -i 's/enforcing/permissive/g' /etc/selinux/config
+yum -y install perl-core wget httpd mod_perl mod_ssl openssl
+systemctl enable --now httpd
+systemctl restart httpd
+
+sudo yum -y install https://harbottle.gitlab.io/epmel/7/x86_64/epmel-release.rpm
+
+yum -y install https://ftp.otrs.org/pub/otrs/RPMS/rhel/7/otrs-6.0.26-01.noarch.rpm 
+
+yum -y install \
+	"perl(Crypt::Eksblowfish::Bcrypt)" \
+	"perl(JSON::XS)" \
+	"perl(Mail::IMAPClient)" \
+	"perl(Authen::NTLM)" \
+	"perl(ModPerl::Util)" \
+	"perl(Text::CSV_XS)" \
+	"perl(YAML::XS)" \
+    "perl(DBD::mysql)" \
+    "perl(Text::CSV_XS)" \
+    "perl(Crypt::Eksblowfish::Bcrypt)" \
+    "perl(JSON::XS)" \
+    "perl(Encode::HanExtra)" \
+     "perl(DBD::Pg)"
+
+yum install "perl(Crypt::Eksblowfish::Bcrypt)"
+
+su - otrs -c '/opt/otrs/bin/otrs.Daemon.pl start > /dev/null 2>&1'
+su - otrs -c '/opt/otrs/bin/Cron.sh start > /dev/null 2>&1'
+
+
+
+
+perl -MCPAN -e shell
+
+install Crypt::Random::Source::Weak::devurandom
+install Exporter::Tiny
+install Math::Random::ISAAC
+install Math::Random::Secure
+install Module::Find
+install Moo
+install Type::Tiny
+install namespace::clean
+
+
+cd /usr/local/share/perl5
+find . -type d -exec chmod 0755 {} +
+
+
+Repositórios quebrado
+--
+https://centos.pkgs.org/7/centos-x86_64/perl-XML-LibXSLT-1.80-4.el7.x86_64.rpm.html
+
+http://mirror.centos.org/centos/7/os/x86_64/Packages/perl-XML-LibXSLT-1.80-4.el7.x86_64.rpm
+
+---
+https://centos.pkgs.org/7/centos-x86_64/perl-Template-Toolkit-2.24-5.el7.x86_64.rpm.html
+
+
+https://forums.otterhub.org/viewtopic.php?t=31566
+
+
+yum install http://mirror.centos.org/centos/7/os/x86_64/Packages/perl-Pod-POM-0.27-10.el7.noarch.rpm
+
+ perl(AppConfig)
+ http://mirror.centos.org/centos/7/os/x86_64/Packages/perl-AppConfig-1.66-20.el7.noarch.rpm
+
+ perl(Image::Info)
+
+http://mirror.centos.org/centos/7/os/x86_64/Packages/perl-Template-Toolkit-2.24-5.el7.x86_64.rpm
+
+https://centos.pkgs.org/7/centos-x86_64/perl-Image-Base-1.07-23.el7.noarch.rpm.html
+
+perl(Parse::RecDescent)
+
+
+mysql -u root -p
+Enter password: <enter password>
+mysql>GRANT ALL ON *.* to root@'123.123.123.123' IDENTIFIED BY 'put-your-password';
+mysql>FLUSH PRIVILEGES;
+mysql>exit
+
