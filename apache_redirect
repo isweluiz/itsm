@@ -1,0 +1,12 @@
+/etc/httpd/conf.d/zzz_otrs.conf
+
+RedirectMatch ^/$ "/otrs/customer.pl"
+or 
+RedirectMatch ^/$ "/otrs/index.pl"
+
+#<VirtualHost *:80>
+#       ServerName https://suporte.xpto.gov.br
+#        Redirect "/suporte" "https://suporte.xtpo.gov.br/otrs/index.pl"
+#</VirtualHost>
+
+
