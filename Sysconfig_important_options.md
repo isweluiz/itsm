@@ -10,3 +10,6 @@
 > - Ticket::Frontend::AgentTicketNote###Responsible
 > - Ticket::Frontend::AgentTicketOwner###Responsible
 > - Ticket::Frontend::AgentTicketAddtlITSMField###Responsible
+> - Ticket::Hook
+> - Ticket::IncludeUnknownTicketCustomers
+> - Ticket::IncludeUnknownTicketCustomers
