@@ -15,3 +15,4 @@
 > - Ticket::IncludeUnknownTicketCustomers
 > - Ticket::Watcher
 Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tickets sem ser proprietário nem responsável.
+> - Ticket::ZoomTimeDisplay
