@@ -17,3 +17,10 @@
 Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tickets sem ser proprietário nem responsável.
 > - Ticket::ZoomTimeDisplay
 > - DashboardBackend###0270-TicketQueueOverview
+
+## ITSM VIEW  
+#### Funções
+- fncTempoPendente
+- - StateID's = 6,7,8,4(remover)
+
+- 
