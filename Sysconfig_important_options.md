@@ -17,6 +17,8 @@
 Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tickets sem ser proprietário nem responsável.
 > - Ticket::ZoomTimeDisplay
 > - DashboardBackend###0270-TicketQueueOverview
+> - Ticket::Service::Default::UnknownCustomer
+- - (Permite selecionar serviços padrão para clientes não existentes)
 
 ## ITSM VIEW  
 #### Funções
