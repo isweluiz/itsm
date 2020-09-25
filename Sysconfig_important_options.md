@@ -19,6 +19,7 @@ Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tick
 > - DashboardBackend###0270-TicketQueueOverview
 > - Ticket::Service::Default::UnknownCustomer
 - - (Permite selecionar serviços padrão para clientes não existentes)
+> - Ticket::Frontend::AgentTicketSearch###SearchLimit
 
 ## ITSM VIEW  
 #### Funções
