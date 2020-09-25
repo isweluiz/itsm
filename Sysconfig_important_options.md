@@ -20,6 +20,7 @@ Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tick
 > - Ticket::Service::Default::UnknownCustomer
 - - (Permite selecionar serviços padrão para clientes não existentes)
 > - Ticket::Frontend::AgentTicketSearch###SearchLimit
+> - Daemon::SchedulerGenericAgentTaskManager::TicketLimit (Número máximo de tickets impactados por job)
 
 ## ITSM VIEW  
 #### Funções
