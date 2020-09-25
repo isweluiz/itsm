@@ -1,4 +1,4 @@
-
+ 
 ### Enable owner/reponsible on stats
 > - Stats::UseAgentElementInStats
 
@@ -21,6 +21,8 @@ Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tick
 - - (Permite selecionar serviços padrão para clientes não existentes)
 > - Ticket::Frontend::AgentTicketSearch###SearchLimit
 > - Daemon::SchedulerGenericAgentTaskManager::TicketLimit (Número máximo de tickets impactados por job)
+> - Stats::SearchLimit (Define o limite de pesquisa para as estatísticas.)
+> - Ticket::Closed::Order (Which close should be considered on Stats.)
 
 ## ITSM VIEW  
 #### Funções
