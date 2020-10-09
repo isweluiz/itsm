@@ -33,7 +33,7 @@ Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tick
 
 
 ### Permissions
-
+```yml
 SYSCONFIG
 G::::zsonda
 AdminACL:::/otrs/index.pl?Action=AdminACL
@@ -47,6 +47,7 @@ Frontend::Module###AdminSelectBox
 Frontend::Module###AdminSystemConfiguration
 Frontend::Module###AdminSystemConfigurationDeployment
 Frontend::Module###AdminSystemConfigurationGroup
+```
 
 
 
