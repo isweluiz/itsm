@@ -30,3 +30,28 @@ Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tick
 - - StateID's = 6,7,8,4(remover)
 
 - 
+
+
+### Permissions
+
+SYSCONFIG
+G::::zsonda
+AdminACL:::/otrs/index.pl?Action=AdminACL
+AdminPostMasterFilter:::
+AdminITSMCIPAllocate:::otrs/index.pl?Action=AdminITSMCIPAllocate
+AdminSystemConfiguration:::/otrs/index.pl?Action=AdminSystemConfiguration
+Frontend::Module###AdminDynamicField:::/otrs/index.pl?Action=AdminDynamicField
+Frontend::Module###AdminGenericAgent:::
+Frontend::Module###AdminImportExport
+Frontend::Module###AdminSelectBox
+Frontend::Module###AdminSystemConfiguration
+Frontend::Module###AdminSystemConfigurationDeployment
+Frontend::Module###AdminSystemConfigurationGroup
+
+
+
+
+
+
+
+
