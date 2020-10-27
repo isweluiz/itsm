@@ -24,6 +24,12 @@ Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tick
 > - Stats::SearchLimit (Define o limite de pesquisa para as estatísticas.)
 > - Ticket::Closed::Order (Which close should be considered on Stats.)
 > - NotificationSenderEmail (E-mail das notificações) 
+> - PostmasterFollowUpStateClosed  - 
+Define o estado do chamado se ele for revisado e o chamado já estiver fechado.
+> - PostmasterFollowUpState
+> - PostmasterFollowUpStateClosed
+
+
 
 ## ITSM VIEW  
 #### Funções
