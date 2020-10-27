@@ -28,7 +28,7 @@ Ativa ou desativa a funcionalidade de observador de ticket, para acompanhar tick
 Define o estado do chamado se ele for revisado e o chamado já estiver fechado.
 > - PostmasterFollowUpState
 > - PostmasterFollowUpStateClosed
-
+> - Ticket::Frontend::CustomerTicketZoom###StateDefault
 
 
 ## ITSM VIEW  
