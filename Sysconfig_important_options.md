@@ -29,7 +29,21 @@ Define o estado do chamado se ele for revisado e o chamado já estiver fechado.
 > - PostmasterFollowUpState
 > - PostmasterFollowUpStateClosed
 > - Ticket::Frontend::CustomerTicketZoom###StateDefault
-
+> - Ticket::Frontend::AgentTicketAddtlITSMField###StateDefault
+> - Ticket::Frontend::AgentTicketBounce###StateDefault
+> - Ticket::Frontend::AgentTicketBulk###StateDefault
+> - Ticket::Frontend::AgentTicketCompose###StateDefault
+> - Ticket::Frontend::AgentTicketDecision###StateDefault
+> - Ticket::Frontend::AgentTicketEmail###StateDefault
+> - Ticket::Frontend::AgentTicketEmailOutbound###StateDefault
+> - Ticket::Frontend::AgentTicketFreeText###StateDefault
+> - Ticket::Frontend::AgentTicketOwner###StateDefault
+> - Ticket::Frontend::AgentTicketPhone###StateDefault
+> - Ticket::Frontend::AgentTicketPhoneInbound###State
+> - Ticket::Frontend::AgentTicketPhoneOutbound###State
+> - Ticket::Frontend::AgentTicketPriority###StateDefault
+> - Ticket::Frontend::AgentTicketResponsible###StateDefault
+> - Ticket::Frontend::CustomerTicketZoom###StateDefault
 
 ## ITSM VIEW  
 #### Funções
