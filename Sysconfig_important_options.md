@@ -44,6 +44,7 @@ Define o estado do chamado se ele for revisado e o chamado já estiver fechado.
 > - Ticket::Frontend::AgentTicketPriority###StateDefault
 > - Ticket::Frontend::AgentTicketResponsible###StateDefault
 > - Ticket::Frontend::CustomerTicketZoom###StateDefault
+> - CustomerPanelCreateAccount
 
 ## ITSM VIEW  
 #### Funções
