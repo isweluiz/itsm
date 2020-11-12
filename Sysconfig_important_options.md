@@ -72,6 +72,7 @@ Frontend::Module###AdminSystemConfigurationGroup
 ```
 
 
+[Using External backends](https://doc.otrs.com/doc/manual/admin/6.0/en/html/external-backends.html)
 
 
 
