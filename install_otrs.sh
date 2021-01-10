@@ -6,7 +6,7 @@
 #Execute ./install_otrs.sh 
 #AUTOR = FAMETEC
 
-VERSION="6.0.26"
+VERSION="6.0.23"
 LOGS="install_otrs.log"
 FQDN="192.168.99.115"
 ADMINEMAIL="is.otrs.az@gmail.com"
