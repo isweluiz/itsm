@@ -1,10 +1,7 @@
 #!/bin/sh
-# DESCRICAO
 # CURSO https://www.udemy.com/course/otrs-de-a-a-z/
 # Instala o OTRS com banco MariaDB incluindo suas dependencias.
-#
 #Execute ./install_otrs.sh 
-#AUTOR = FAMETEC
 
 VERSION="6.0.23"
 LOGS="install_otrs.log"
