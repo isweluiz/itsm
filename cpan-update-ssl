@@ -1,0 +1,6 @@
+https://metacpan.org/pod/IO::Socket::SSL
+
+perl -MCPAN -e shell
+install IO::Socket::SSL
+
+upgrade IO::Socket::SSL
