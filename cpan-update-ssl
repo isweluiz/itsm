@@ -4,3 +4,14 @@ perl -MCPAN -e shell
 install IO::Socket::SSL
 
 upgrade IO::Socket::SSL
+
+
+https://metacpan.org/pod/App::cpanminus
+https://forums.otterhub.org/viewtopic.php?t=41759
+install App::cpanminus
+
+
+otrs.Console.pl  Maint::Cache::Delete
+
+
+[otrs@virtus ~]$ otrs.Console.pl Maint::PostMaster::MailAccountFetch
