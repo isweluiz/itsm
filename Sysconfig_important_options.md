@@ -45,6 +45,8 @@ Define o estado do chamado se ele for revisado e o chamado já estiver fechado.
 > - Ticket::Frontend::AgentTicketResponsible###StateDefault
 > - Ticket::Frontend::CustomerTicketZoom###StateDefault
 > - CustomerPanelCreateAccount
+> - LinkObject::IgnoreLinkedTicketStateTypes ::::::: Define quais tickets de quais tipos de estado de ticket não devem ser listados na lista de ticket associado.
+>  
 
 ## ITSM VIEW  
 #### Funções
