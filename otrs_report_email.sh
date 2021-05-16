@@ -1,0 +1,3 @@
+#!/bin/bash 
+#luiz.e.eduardo@...
+echo XPTO... | su -s /bin/bash  -c "/opt/otrs/bin/otrs.Console.pl Maint::Stats::Generate --number 10095 --mail-sender suporte@.....gov.br --mail-recipient luiz.e.eduardo@... --mail-body 'Pesquisa de satisfação atendimento DETRAN DF. E-mail diário automático. Estatística número:  10073' --format Excel"  otrs
