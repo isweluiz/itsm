@@ -48,6 +48,10 @@ left join survey_question sqt on sqt.survey_id = sr.survey_id
 left join otrs.vw_aux_survey rp on sr.ticket_id  = rp.ticket_id and sr.id = rp.request_id and sqt.id = rp.vote_qestion_id
 
 
+select * from vw_pesq_sat
+WHERE YEAR(data_resposta) = 2021 and MONTH(data_resposta) = 07;
+
+
 
 --------------
 
