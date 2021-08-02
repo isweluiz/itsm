@@ -9,6 +9,14 @@ WHERE ticket_id IN (
 12375
 ) and history_type_id = 27; 
 
+// State update 
+
+UPDATE otrs.ticket
+SET ticket_state_id='13'
+WHERE tn IN ( ); 
+
+select * from otrs.ticket
+WHERE tn IN ( ); 
 
 SELECT * FROM ticket_history 
 WHERE ticket_id IN (8709,8711,8718,8784)
